@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Lato:wght@300;400;700&family=Tajawal:wght@300;400;700;900&display=swap');
+* {
+}
+  .index ,html{
+
+    background-image: linear-gradient(rgba(150, 119, 197, 0.772), rgb(215, 91, 168), rgb(225, 76, 93)); 
+    background-repeat: no-repeat;
+     /* Full height */
+    height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+img{
+    border-radius: 50%;
+    height: 100pxpx;
+    width: 150px;
+    position:relative;
+    top:3%
+}
+.block{ 
+ position: relative;
+ left: 185px;
+ top: -180px;
+}
+.dot {
+    height: 6px;
+    width: 6px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    top:-185px;
+  }
+  .contait{
+      width: 100%;
+      text-align: center;
+     border: 1px solid rgb(149, 158, 141);
+     position: relative;   
+     top:-170px;
+     left:0%;
+  }
+ th,td{
+    width: 50%;
+    text-align: center;
+   border: 1px solid  rgb(149, 158, 141);   
+ }
+ .info{
+    width: 100%;
+    text-align: left;
+   border: 1px solid rgb(149, 158, 141);
+   position: relative;   
+   position: relative;   
+   top:-190px;
+   left:0%;
+
+ }
+ .button{
+     position: relative;
+     left:400px;
+     bottom: -300px;
+    background-color: #c52828;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+ .send{
+    position: relative;
+    left:20px;
+    bottom: 0px;
+   background-color: #c52828;
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+ .b1{
+position: relative;
+left:20px;
+top:90px;
+    text-align: center;
+ }
+ .contact{
+background-image: url('background-image.png');
+height: 100%; 
+background-repeat: no-repeat;
+background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+ }
